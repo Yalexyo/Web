@@ -1,4 +1,5 @@
 
-markdown: kramdown
+markdown: redcarpet
+highlighter: rouge
 baseurl: /Web
 exclude: ['README.md']
