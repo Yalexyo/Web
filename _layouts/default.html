@@ -1,34 +1,29 @@
 <!DOCTYPE html>
-<html lang="en-ca">
+<html>
 
-    <head>
-		<meta charset="utf-8">
-		<title>My awesome Web test 1.0</title>
-	</head>
-	
-	
-	<body>
-	
-	 <div class="page-content">
+  <!-- {% include head.html %} -->
+
+  <body>
+
+   <!--  {% include header.html %} -->
+
+    <div class="page-content">
       <div class="wrapper">
         {{ content }}
       </div>
     </div>
-	
-		<header>
-			<h1>Yalexyo Ex Lab</h1>
-			<nav>
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="music.html">Music</a></li>
-					<li><a href="photography.html">Photography</a></li>
-					<li><a href="news.html"> News</a></li>
-				</ul>
-			</nav>
-		
-       </header>
-	 
-	
-	</body>
+      <header>
+         
+            <ul>
+				<li><a href="index.html"> Home</a></li>
+			    <li><a href="aboutme.html">Me</a></li>
+                <li><a href="music.html">Music</a></li>
+				<li><a href="photography.html">Photography</a></li>
+            </ul>
+      </header>
+
+   <!--  {% include footer.html %} -->
+
+  </body>
 
 </html>
