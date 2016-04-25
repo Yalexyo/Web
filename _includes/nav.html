@@ -1,9 +1,10 @@
 <nav>
     <ul>
-        <li><a href="{{site.baseurl}}/index.html"> Home</a></li>
+       
+        <li><a href="{{site.baseurl}}/index.html" class="{% if page.url == '/' %}current{% endif %}">Home</a></li>
         <li><a href="{{site.baseurl}}/aboutme.html">Me</a></li>
-        <li><a href="{{site.baseurl}}/music.html">Music</a></li>
-        <li><a href="{{site.baseurl}}/photography.html">Photography</a></li>
+        <li><a href="{{site.baseurl}}/music.html" class="{% if page.url == '/music.html' %}current{% endif %}">Music</a></li>
+        <li><a href="{{site.baseurl}}/photography.html"  >Photography</a></li>
     </ul>
 </nav>
 
